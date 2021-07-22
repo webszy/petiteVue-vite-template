@@ -1,0 +1,232 @@
+@charset "utf-8";
+/*******globe***********/
+
+body,
+div,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+table,
+tr,
+td,
+th,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea,
+fieldset,
+figure {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  /* --swiper-theme-color:#c2c2c2;*/
+  --swiper-theme-color: #fff;
+  --swiper-preloader-color: #e0e0e0;
+  --promotion-angle-color:#ff625d;
+  --safe-top:10px;
+  --safe-bottom:10px;
+  --setting-close-top:28px;
+
+}
+html {
+  font-size: 26.67vw;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  user-select: none;
+  touch-action: manipulation;
+  /* -webkit-touch-callout: none; */
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  /* transform: translateZ(0); */
+  -webkit-overflow-scrolling: touch;
+}
+
+html body {
+  font-family: "Roboto", "ArialMT";
+  background-color: #fff;
+  /* user-select: none; */
+  /* overflow-x: hidden; */
+}
+
+img {
+  border: 0;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+ins {
+  text-decoration: none;
+}
+input,
+button {
+  outline: none;
+  padding: 0;
+  border: none;
+  border: 0;
+  border-radius: 0;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: none;
+}
+
+html body .van-toast {
+  width: 0.5rem;
+  min-height: 0.5rem;
+  z-index: 9999;
+  padding: 10px;
+  background-color: rgba(50, 50, 51, 0.7);
+}
+html body .van-loading__spinner {
+  width: 90%;
+  height: 90%;
+}
+html body .van-toast--text {
+  width: fit-content;
+  min-height: unset;
+}
+html body .toasted-container {
+  max-width: 3rem;
+  max-height: 1.5rem;
+}
+html body .toast {
+  font-size: 0.14rem;
+  padding: 0.1rem 0.05rem;
+}
+html body .loginToast{
+  width:.9rem;
+}
+html body .loginToast .van-loading__spinner{
+  width:50%;
+  height:50%;
+}
+html body .swiper-lazy-preloader {
+  width: 22px;
+  height: 22px;
+  margin-top: -11px;
+  margin-left: -11px;
+}
+html body .van-pull-refresh {
+  padding-top: 0.1rem;
+}
+.followTheme2 .van-pull-refresh{
+  padding-top: 0;
+}
+/*.followTheme2 .van-pull-refresh__track{*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  padding-top: .12rem;*/
+/*}*/
+html body .van-loading__text{
+  font-size:.14rem;
+}
+html body .timeAlert {
+  top: 50%;
+}
+html body .exitAlert {
+  top: 50%;
+}
+#tip {
+  display: block;
+  width: 2.59rem;
+  height: 0.8rem;
+  background: url("https://i.loli.net/2020/08/17/1z5alGKivSRpHWQ.png") no-repeat
+    left top;
+  /* background: url("../images/tip_bg_ic@2x.png") no-repeat left top; */
+  background-size: cover;
+  position: absolute;
+  left: -20px;
+  top: 20px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 16px;
+  box-sizing: border-box;
+  padding: 0.21rem 0.23rem 0.27rem 0.26rem;
+  z-index: 9;
+  text-align: left;
+}
+.getCoins #tip{
+  right:-19px;
+  top:23px;
+  left:auto;
+}
+.getCoins2 #tip{
+  width:2.7rem;
+  height:.6rem;
+  top: -56px;
+  background:url('https://i.loli.net/2021/04/30/XMWJOR6LAvbie1G.png') no-repeat left top;
+  background-size: contain;
+  padding:0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: .19rem;
+  right:auto;
+  left:-19px;
+}
+.noScroll {
+  overflow-y: hidden;
+}
+
+body .lx-load-box {
+  width: 0.6rem;
+  min-height: 0.6rem;
+  top: 50%;
+  left: 50%;
+  margin-left: -0.3rem;
+}
+body .lx-load-mark {
+  touch-action: none;
+}
+/* body .lx-toast{
+  overflow:auto;
+  text-overflow: none;
+  white-space: normal;
+} */
+/* my css utils */
+.rounded-half{
+  border-radius: 50%;
+}
+.w-fit{
+width: fit-content;
+}
+.m-0-auto{
+  margin:0 auto;
+}
+.pointer{
+  cursor: pointer;
+}
+.fff{
+  color: #fff;
+}
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.animated.fastest{
+  -webkit-animation-duration:.1s;animation-duration:.1s
+}
+.flex_1{
+  flex:1;
+}
